@@ -1,2 +1,9 @@
-src/node_modules
-src/package-lock.json
+lib/config.lua
+src/bin
+src/obj
+src/packages
+src/.vs
+CitizenFX.Core.dll
+CitizenFX.Core.pdb
+MsgPack.dll
+MsgPack.xml
