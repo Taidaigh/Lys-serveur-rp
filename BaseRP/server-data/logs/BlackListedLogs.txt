@@ -1,15 +1,1 @@
-[03:41:06] Louis Leroy (steam:110000104269fcc) : SAVAGE
-[03:41:15] Louis Leroy (steam:110000104269fcc) : SAVAGE
-[04:52:05] Louis Leroy (steam:110000104269fcc) : APC
-[04:52:12] Louis Leroy (steam:110000104269fcc) : APC
-[08:39:16] Kyle Marlon (steam:1100001077ac83b) : APC
-[08:39:26] Kyle Marlon (steam:1100001077ac83b) : APC
-[08:39:28] Kyle Marlon (steam:1100001077ac83b) : APC
-[08:39:29] Kyle Marlon (steam:1100001077ac83b) : APC
-[03:14:09] Adam Baron (steam:1100001097b2c0e) : APC
-[03:14:17] Adam Baron (steam:1100001097b2c0e) : APC
-[05:40:55] Léon Lando (steam:11000010d698f05) : LAZER
-[05:41:40] Léon Lando (steam:11000010d698f05) : LAZER
-[05:41:44] Sateriasis Foerster (steam:1100001077ac83b) : LAZER
-[05:49:49] Sateriasis Foerster (steam:1100001077ac83b) : LAZER
-[02:26:22] Joseph Coss (steam:11000011b81fdfd) : BARRACKS
+

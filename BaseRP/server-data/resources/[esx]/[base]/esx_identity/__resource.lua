@@ -1,22 +1,26 @@
-resource_manifest_version '44febabe-d386-4d18-afbe-5e627f4af937'
+version '1.0.2'
 
-description 'ESX Identity'
+client_script('client.lua')
 
-version '1.0.3'
+server_script "@mysql-async/lib/MySQL.lua"
+server_script "server.lua"
 
-client_script 'client/main.lua'
+ui_page('html/index.html')
 
-server_scripts {
-	"@mysql-async/lib/MySQL.lua",
-	"@es_extended/locale.lua",
-	"server/main.lua"
-}
+files({
+  'html/css/bootstrap-extend.css',
+  'html/css/bootstrap.min.css',
+  'html/css/master_style_dark.css',
+  'html/css/master_style_rtl.css',
+  'html/css/master_style.css',
+  'html/images/bg1.jpg',
+  'html/images/bg2.jpg',
+  'html/images/myLogo.png',
+  'html/js/jquery-3.3.1.js',
+  'html/js/jquery-3.3.1.js',
+  'html/index.html',
+})
 
-ui_page 'html/index.html'
-
-files {
-	'html/index.html',
-	'html/script.js',
-	'html/style.css',
-	'html/cursor.png'
+exports {
+  'openRegistry'
 }

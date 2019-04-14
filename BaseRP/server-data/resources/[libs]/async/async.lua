@@ -6,6 +6,11 @@ Async = {}
 
 function Async.parallel(tasks, cb)
 
+	if #tasks == 0 then
+		cb({})
+		return
+	end
+
 	local remaining = #tasks
 	local results   = {}
 
@@ -32,6 +37,11 @@ function Async.parallel(tasks, cb)
 end
 
 function Async.parallelLimit(tasks, limit, cb)
+
+	if #tasks == 0 then
+		cb({})
+		return
+	end
 
 	local remaining = #tasks
 	local running   = 0

@@ -42,7 +42,7 @@ end
 AddEventHandler('playerConnecting', function(user, set)
 	for k,v in ipairs(GetPlayerIdentifiers(source))do
 		if isBanned(v) then
-			set(GetConvar("es_admin_banreason", "Vous êtes ban de Nightfive"))
+			set(GetConvar("es_admin_banreason", "Vous êtes ban de Lyseria"))
 			CancelEvent()
 			break
 		end
@@ -88,7 +88,7 @@ AddEventHandler('es_admin:quick', function(id, type)
 							for k,v in ipairs(GetPlayerIdentifiers(id))do
 								banUser(v)
 							end
-							DropPlayer(id, GetConvar("es_admin_banreason", "Vous êtes banni de Nightfive"))
+							DropPlayer(id, GetConvar("es_admin_banreason", "Vous êtes banni de Lyseria"))
 						end
 					else
 						if not available then
