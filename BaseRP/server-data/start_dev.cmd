@@ -1,0 +1,1 @@
+C:\Users\root\Desktop\gtarp\BaseRP/run.cmd +exec server_dev.cfg

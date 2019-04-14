@@ -1,0 +1,145 @@
+/* changement des menus par buly */
+
+@font-face {
+  font-family: bankgothic;
+  src: url('../fonts/bankgothic.ttf');
+}
+
+@font-face {
+  font-family: pcdown;
+  src: url('../fonts/pdown.ttf');
+}
+
+@font-face {
+  font-family:  Russo One;
+  src: url('../fonts/RussoOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: Chalet London;
+  src: url('../fonts/ChaletLondonNineteenSixty.ttf');
+}
+
+
+.menu {
+  font-family:  'Chalet London', sans-serif;  
+  min-width  : 400px;
+  color      : rgb(255, 255, 255);
+  /*box-shadow : 0px 0px 50px 0px #000;*/
+  position   : absolute;
+  overflow   : hidden;
+  top        : 360px;
+  left       : 47px;
+ /* box-shadow: -1px -1px 2px #009999, -1px -1px 2px #009999, -1px -1px 2px #009999, -1px -1px 2px #009999;*/
+}
+
+/*-webkit-animation: linehide 0.3s 0.1s forwards;*/
+/*@-webkit-keyframes linehide {
+  0% {scale: 0; visibility: visible;}
+  100% {scale: 1;visibility: visible;}
+  /* 40 par defaut /*
+}*/ 
+
+.menu.align-left {
+  left: 45px;
+  top : 50%;
+  transform: translate(0, -50%); 
+}
+
+.menu.align-top-left {
+  left: 47px;
+  top : 60px;   
+}
+
+.menu.align-top-haut {
+  left: 47px;
+  top : 40px;  
+}
+
+.menu.align-top {
+  left: 50%;
+  top : 60px;
+  transform: translate(-50%, 0); 
+}
+
+.menu.align-top-right {
+  right: 10px;
+  top  : 60px;
+}
+
+.menu.align-right {
+  right: 45px;
+  top  : 50%;
+  transform: translate(0, -50%); 
+}
+
+.menu.align-bottom-right {
+  left: 45px;
+  top : 60px;
+ /* right : 40;
+  bottom: 40; */
+}
+
+.menu.align-bottom {
+  left  : 50%;
+  bottom: 40px;
+  transform: translate(-50%, 0); 
+}
+
+.menu.align-bottom-left {
+  left  : 45px;
+  bottom: 40px;
+}
+
+.menu.align-center {
+  left : 50%;
+  top  : 50%;
+  transform: translate(-50%, -50%); 
+}
+
+.menu .head {
+ /* background-color: rgb(108, 0, 186); /* #506be6; par defaut */
+
+  background-repeat: no-repeat;
+  background: url('../img/head/default.png');
+  font-weight     : center;
+  text-align      : center;
+  height          : 100px;
+  line-height     : 100px;
+ /* text-shadow:  Text Shadow Color */
+  /*1px 1px 1px rgba(0,0,0,.8),
+  1px 1px 2px rgba(0,0,0,.8),
+  1px 1px 3px rgba(0,0,0,.8),
+  1px 1px 4px rgba(0,0,0,.8);*/
+}
+
+.menu .menu-items {
+  max-height : 650px;
+  overflow : hidden;
+  /* overflow-y : auto; /* par defaut */
+}
+
+.menu .menu-items .menu-item {
+  height          : 40px;
+  padding-left    : 5px;
+  display         : block;
+  font-weight     : bold;
+  background-color: rgba(0, 0, 0, 0.8); /* #f1f1f1 par defaut */
+  /*box-shadow      : inset 1px 0px 0px 1px #b8b8b8;*/
+  height          : 32px;
+  line-height     : 32px;
+  color           : #FFFFFF;
+  text-align      : left;
+  /*opacity         : 0.5;*/
+  /*text-shadow:  /*Text Shadow Color 
+  1px 1px 1px rgba(255,255,255,.9),
+  1px 1px 2px rgba(255,255,255,.9),
+  1px 1px 3px rgba(255,255,255,.9),
+  1px 1px 4px rgba(255,255,255,.9);*/
+}
+
+.menu .menu-items .menu-item.selected {
+  font-weight     : bold;
+  background-color: rgba(255, 255, 255, 0.6); /* #d0d0d0 par defaut */
+  color           : #000000;
+}

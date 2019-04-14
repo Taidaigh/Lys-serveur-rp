@@ -1,0 +1,1 @@
+C:\Users\Lucas\Desktop\BaseRP\run.cmd +exec server.cfg
